@@ -21,27 +21,33 @@ body {
 /* Header */
 header {
     background-color: #000000;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #ffffff;
 }
 
 h1 {
     font-family: 'cuprum', sans-serif;
     font-weight: 200;
     text-transform: uppercase;
+    color: #ffffff;
 }
 
-#main-heading {
-    display: flex;
+header a {
+    text-decoration: none;
 }
 
-#nasa-logo {
-    width: 50px;
-    height: 50px;
-}
 /* Main Content */
 main {
     background-color: lightcoral;
     /* takes up surplus space and pushes footer to bottom of page */
     flex: 1 0 auto;
+    margin-top: 50px;
 }
 
 /* Footer */
