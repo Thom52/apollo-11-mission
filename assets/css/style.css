@@ -42,12 +42,47 @@ header a {
     text-decoration: none;
 }
 
+#menu {
+    font-size: 110%;
+    list-style-type: none;
+}
+
+#menu li {
+    padding-bottom: 1rem;
+    font-weight: 100;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #000000;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+/* Nav Toggle */
+#nav-toggle:checked~nav {
+    display: block;
+
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
 /* Main Content */
 main {
     background-color: lightcoral;
     /* takes up surplus space and pushes footer to bottom of page */
     flex: 1 0 auto;
-    margin-top: 50px;
+    margin-top: 39px;
 }
 
 /* Footer */
