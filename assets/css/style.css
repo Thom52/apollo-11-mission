@@ -14,14 +14,29 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic styles */
+    color: #ffffff;
     font-family: 'roboto', sans-serif;
 }
 
 /* Header */
 header {
-    background-color: lightblue;
+    background-color: #000000;
 }
 
+h1 {
+    font-family: 'cuprum', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+#main-heading {
+    display: flex;
+}
+
+#nasa-logo {
+    width: 50px;
+    height: 50px;
+}
 /* Main Content */
 main {
     background-color: lightcoral;
