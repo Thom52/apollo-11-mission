@@ -1,18 +1,30 @@
-/* Asterix wildcard selector to override default styles set by the browser */
+/* overrides default styles set by the browser */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/* General Styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
 header {
     background-color: lightblue;
 }
 
+/* Main Content */
 main {
     background-color: lightcoral;
+    /* takes up surplus space and pushes footer to bottom of page */
+    flex: 1 0 auto;
 }
 
+/* Footer */
 footer {
     background-color: lightgreen;
 }
