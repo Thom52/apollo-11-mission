@@ -113,7 +113,7 @@ footer {
     background-color: black;
 }
 
-footer>h2 {
+footer>p {
     font-size: 60%;
     text-align: center;
     margin-bottom: 1rem;
@@ -195,4 +195,7 @@ footer>h2 {
     }
 
     /* Footer */
+    footer i:hover {
+        color: #ffffff;
+    }
 }
