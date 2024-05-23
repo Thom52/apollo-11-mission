@@ -73,6 +73,10 @@ header h1, header img {
     font-weight: 100;
 }
 
+#menu a {
+    color: #eee3e3;
+}
+
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
@@ -191,17 +195,14 @@ footer>p {
 @media screen and (min-width: 992px) {
 
     /* Header */
-    nav li:hover {
-        color: #ffffff;
+    /* Navbar hover styles*/
+    nav a:hover {
+        border-bottom: 1px solid #eee3e3;
     }
 
     /* Footer */
     footer p {
         font-size: 80%;
         font-weight: 300;
-    }
-
-    footer i:hover {
-        color: #ffffff;
     }
 }
