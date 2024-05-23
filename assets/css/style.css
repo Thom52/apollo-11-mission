@@ -43,6 +43,12 @@ header a {
     text-decoration: none;
 }
 
+#insignia-header {
+    width: 25px;
+    height: 25px;
+    margin-left: 0.3rem;
+}
+
 #menu {
     font-size: 110%;
     list-style-type: none;
