@@ -36,7 +36,7 @@ header {
     box-shadow: 0 2px 2px #ffffff;
 }
 
-h1 {
+#logo {
     font-family: 'cuprum', sans-serif;
     font-weight: 200;
     text-transform: uppercase;
@@ -51,7 +51,11 @@ header a {
 #insignia-header {
     width: 25px;
     height: 25px;
-    margin-left: 0.3rem;
+    margin-left: 1rem;
+}
+
+header h1, header img {
+    display: inline;
 }
 
 #menu {
@@ -89,15 +93,61 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
+
 /* Main Content */
 main {
     background-color: lightcoral;
     /* takes up surplus space and pushes footer to bottom of page */
     flex: 1 0 auto;
+    /* Push main content down under header */
     margin-top: 39px;
 }
 
 /* Footer */
 footer {
     background-color: lightgreen;
+}
+
+/* Media Query: Tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        box-shadow: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 50px;
+        padding: 0 0.5rem;
+    }
+
+    #insignia-header {
+        width: 40px;
+        height: 40px;
+        margin-top: 1rem;
+    }
+    
+    #menu {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #menu li {
+        margin-left: 1rem;
+        font-size: 90%;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    /* Main Content */
+    /* Push main content down to accomodate the larger header */
+    main {
+        margin-top: 77px;
+    }
 }
