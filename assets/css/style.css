@@ -97,7 +97,7 @@ nav {
 
 /* Main Content */
 main {
-    background-color: lightcoral;
+    background-color: lightskyblue;
     /* takes up surplus space and pushes footer to bottom of page */
     flex: 1 0 auto;
     /* Push main content down under header */
@@ -106,7 +106,12 @@ main {
 
 /* Footer */
 footer {
-    background-color: lightgreen;
+    background-color: black;
+}
+
+#nasa-insignia {
+    width: 50px;
+    height: 40px;
 }
 
 /* Media Query: Tablets and larger (768px and up) */
