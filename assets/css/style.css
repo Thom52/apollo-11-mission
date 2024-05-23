@@ -128,6 +128,7 @@ footer>p {
     text-align: center;
     justify-content: space-evenly;
     list-style-type: none;
+    margin-bottom: 1rem;
     
 }
 
@@ -195,6 +196,11 @@ footer>p {
     }
 
     /* Footer */
+    footer p {
+        font-size: 80%;
+        font-weight: 300;
+    }
+
     footer i:hover {
         color: #ffffff;
     }
