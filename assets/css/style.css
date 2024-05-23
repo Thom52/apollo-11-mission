@@ -14,13 +14,13 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic styles */
-    color: #ffffff;
+    color: #eee3e3;
     font-family: 'roboto', sans-serif;
 }
 
 /* Class to create visual page cue in navbar */
 .active {
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #eee3e3;
 }
 
 /* Header */
@@ -150,5 +150,11 @@ footer {
     /* Push main content down to accomodate the larger header */
     main {
         margin-top: 77px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    nav li:hover {
+        color: #ffffff;
     }
 }
