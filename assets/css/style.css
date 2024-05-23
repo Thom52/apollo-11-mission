@@ -18,6 +18,11 @@ body {
     font-family: 'roboto', sans-serif;
 }
 
+/* Class to create visual page cue in navbar */
+.active {
+    border-bottom: 1px solid #ffffff;
+}
+
 /* Header */
 header {
     background-color: #000000;
@@ -55,7 +60,7 @@ header a {
 }
 
 #menu li {
-    padding-bottom: 1rem;
+    margin-bottom: 1rem;
     font-weight: 100;
 }
 
