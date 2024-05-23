@@ -18,6 +18,10 @@ body {
     font-family: 'roboto', sans-serif;
 }
 
+h2, h3 {
+    font-family: 'muli', sans-serif;
+}
+
 /* Class to create visual page cue in navbar */
 .active {
     border-bottom: 1px solid #eee3e3;
@@ -52,7 +56,7 @@ header a {
 #insignia-header {
     width: 25px;
     height: 25px;
-    margin-left: 1rem;
+    margin-left: 0.5rem;
 }
 
 header h1, header img {
@@ -109,10 +113,35 @@ footer {
     background-color: black;
 }
 
-#nasa-insignia {
-    width: 50px;
-    height: 40px;
+footer>h2 {
+    font-size: 60%;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-weight: 100;
 }
+
+#social-networks {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    
+}
+
+#social-networks i {
+    color: #eee3e3;
+    font-size: 150%;
+}
+
+#nasa-insignia {
+    width: 30px;
+    height: 25px;
+}
+
+
 
 /* Media Query: Tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -159,7 +188,11 @@ footer {
 }
 
 @media screen and (min-width: 992px) {
+
+    /* Header */
     nav li:hover {
         color: #ffffff;
     }
+
+    /* Footer */
 }
