@@ -131,13 +131,16 @@ main {
 #introduction>p {
     text-align: center;
     margin: 3rem 2rem 2rem;
-    font-size: 100%;
+    font-size: 90%;
     font-weight: 100;
+    letter-spacing: 2px;
     color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px 20px;
 }
 
 #intro-video {
-    width: 70%;
+    width: 80%;
     height: 70%;
 }
 
@@ -219,6 +222,7 @@ footer>p {
     }
 }
 
+/* Media Query: Laptops and Larger (992px and up) */
 @media screen and (min-width: 992px) {
 
     /* Header */
@@ -227,9 +231,31 @@ footer>p {
         border-bottom: 1px solid #eee3e3;
     }
 
+    /* Main Content */
+
+    /* Introduction Section */
+    #introduction>p {
+        font-size: 100%;
+        max-width: 600px;
+    }
+
+    #intro-video {
+        width: 800px;
+        height: 500px;
+    }
+
     /* Footer */
     footer p {
         font-size: 80%;
         font-weight: 200;
     }
+}
+
+/* Media Query: Desktops and larger (1200px and up) */
+
+/* Main Content */
+
+/* Introduction Section */
+@media screen and (min-width: 1200px) {
+
 }
