@@ -106,7 +106,6 @@ nav {
 
 /* Main Content */
 main {
-    background-color: #000000;
     /* takes up surplus space and pushes footer to bottom of page */
     flex: 1 0 auto;
     /* Push main content down under header */
@@ -118,7 +117,16 @@ main {
     height: 100vh;
     width: 100%;
     background: url(../images/background.jpg) no-repeat center center/cover;
+    position: fixed;
+    z-index: -1;
 }
+
+/* Introduction Section */
+#intro-video {
+    width: 200px;
+    height: 200px;
+}
+
 
 /* Footer */
 footer {
