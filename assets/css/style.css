@@ -37,7 +37,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #ffffff;
+    box-shadow: 0 2px 2px #4b4b4b;
 }
 
 #logo {
