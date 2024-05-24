@@ -144,6 +144,48 @@ main {
     height: 70%;
 }
 
+/* Timeline Section */
+
+#timeline {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Pre-Launch Section */
+#pre-launch-image {
+    width: 200px;
+    height: 200px;
+}
+
+/* Launch Day Section */
+#launch-image {
+    width: 200px;
+    height: 200px;
+}
+
+/* Lunar Orbit Section */
+#lunar-orbit-image {
+    width: 200px;
+    height: 200px;
+}
+
+/* Moon Landing Sections */
+#landing-image {
+    width: 200px;
+    height: 200px;
+}
+
+/* Moon Walk Section */
+#moon-walk-image {
+    width: 200px;
+    height: 200px;
+}
+
+/* Return to Earth Section */
+#return-image {
+    width: 200px;
+    height: 200px;
+}
 
 /* Footer */
 footer {
