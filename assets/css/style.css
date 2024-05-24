@@ -84,7 +84,7 @@ nav {
     background-color: #000000;
     width: 100%;
     left: 0;
-    padding: 0 1rem;
+    padding: 0 0.5rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
@@ -122,9 +122,23 @@ main {
 }
 
 /* Introduction Section */
+#introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#introduction>p {
+    text-align: center;
+    margin: 3rem 2rem 2rem;
+    font-size: 100%;
+    font-weight: 100;
+    color: #ffffff;
+}
+
 #intro-video {
-    width: 200px;
-    height: 200px;
+    width: 70%;
+    height: 70%;
 }
 
 
@@ -136,10 +150,7 @@ footer {
 footer>p {
     font-size: 60%;
     text-align: center;
-    margin-bottom: 1rem;
-    margin-top: 0.5rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin: 0.5rem 1rem 1rem;
     font-weight: 100;
 }
 
