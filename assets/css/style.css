@@ -147,10 +147,14 @@ main {
 }
 
 /* Timeline Section */
-
-#timeline {
+#timeline div, h2 {
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+#timeline div {
+    align-self: center;
 }
 
 /* Pre-Launch Section */
