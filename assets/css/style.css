@@ -20,6 +20,8 @@ body {
 
 h2, h3 {
     font-family: 'muli', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 /* Class to create visual page cue in navbar */
