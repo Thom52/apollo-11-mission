@@ -13,6 +13,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: #000000;
     /* Generic styles */
     color: #eee3e3;
     font-family: 'roboto', sans-serif;
@@ -22,6 +23,9 @@ h2, h3 {
     font-family: 'muli', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 b {
@@ -120,9 +124,9 @@ main {
 
 /* background image */
 #background {
-    height: 100vh;
+    height: 100%;
     width: 100%;
-    background: url(../images/background.jpg) repeat center center/cover;
+    background: url(../images/background.jpg) no-repeat center center/cover;
     position: fixed;
     z-index: -1;
 }
@@ -159,11 +163,8 @@ main {
     letter-spacing: 1px;
 }
 
-#timeline div, h2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+#timeline h3 {
+    margin-bottom: -2rem;
 }
 
 #timeline p {
@@ -176,35 +177,75 @@ main {
     border-radius: 7px;
 }
 
-#timeline img {
+/* Pre-Launch Section */
+#pre-launch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 2rem 2rem;
+}
+
+#pre-launch-image {
+    width: 80%;
+    border-radius: 7px;
+    box-shadow: 3px 8px 10px #1a1919;
+    margin: 1rem 0 1rem;
+}
+/* Launch Day Section */
+#launch-day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 2rem 2rem;
+}
+
+#launch-image {
     width: 80%;
     border-radius: 7px;
     box-shadow: 3px 8px 10px #1a1919;
     margin: 1rem 0 1rem;
 }
 
-/* Pre-Launch Section */
-#pre-launch {
-    margin: 2rem 2rem;
-}
-
-/* Launch Day Section */
-#launch-day {
-    margin: 2rem 2rem;
-}
-
 /* Lunar Orbit Section */
 #lunar-orbit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     margin: 2rem 2rem;
+}
+
+#lunar-orbit-image {
+    width: 80%;
+    border-radius: 7px;
+    box-shadow: 3px 8px 10px #1a1919;
+    margin: 1rem 0 1rem;
 }
 
 /* Moon Landing Sections */
 #moon-landing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     margin: 2rem 2rem;
+}
+
+#landing-image {
+    width: 80%;
+    border-radius: 7px;
+    box-shadow: 3px 8px 10px #1a1919;
+    margin: 1rem 0 1rem;
 }
 
 /* Moon Walk Section */
 #moon-walk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     margin: 2rem 2rem;
 }
 
@@ -213,9 +254,27 @@ main {
     margin: 10px 0;
 }
 
+#moon-walk-image {
+    width: 80%;
+    border-radius: 7px;
+    box-shadow: 3px 8px 10px #1a1919;
+    margin: 1rem 0 1rem;
+}
+
 /* Return to Earth Section */
 #return-to-earth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     margin: 2rem 2rem;
+}
+
+#return-image {
+    width: 80%;
+    border-radius: 7px;
+    box-shadow: 3px 8px 10px #1a1919;
+    margin: 1rem 0 1rem;
 }
 
 /* Thank you Section */
@@ -341,6 +400,18 @@ footer>p {
         max-width: 600px;
     }
 
+    /* Timeline Section */ 
+
+    /* Pre-Launch Section */
+    #pre-launch {
+	display: flex;
+    flex-direction: row;
+    }
+
+    #pre-launch-image {
+        width: 40%;
+    }
+ 
     /* Footer */
     footer p {
         font-size: 80%;
