@@ -135,7 +135,7 @@ main {
     margin: 3rem 2rem 2rem;
     font-size: 90%;
     font-weight: 100;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color: #ffffff;
     background-color: rgba(0, 0, 0, 0.4);
     padding: 20px 20px;
@@ -149,35 +149,70 @@ main {
 }
 
 /* Timeline Section */
+
+#timeline {
+    margin: 3rem 0;
+}
+
 #timeline div, h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+}
+
+#timeline p {
+    font-size: 90%;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 1px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 5px 5px;
+    border-radius: 7px;
 }
 
 #timeline img {
     width: 80%;
     border-radius: 7px;
-    box-shadow: 3px 8px 10px #000000;
+    box-shadow: 3px 8px 10px #1a1919;
+    margin: 1rem 0 1rem;
 }
 
 /* Pre-Launch Section */
-
+#pre-launch {
+    margin: 2rem 2rem;
+}
 
 /* Launch Day Section */
-
+#launch-day {
+    margin: 2rem 2rem;
+}
 
 /* Lunar Orbit Section */
-
+#lunar-orbit {
+    margin: 2rem 2rem;
+}
 
 /* Moon Landing Sections */
-
+#moon-landing {
+    margin: 2rem 2rem;
+}
 
 /* Moon Walk Section */
+#moon-walk {
+    margin: 2rem 2rem;
+}
 
+#quote-style {
+    font-weight: 700;
+    font-style: italic;
+    margin: 10px 0;
+}
 
 /* Return to Earth Section */
-
+#return-to-earth {
+    margin: 2rem 2rem;
+}
 
 /* Thank you Section */
 #mission-control-image {
