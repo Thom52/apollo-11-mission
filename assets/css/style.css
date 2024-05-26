@@ -164,7 +164,8 @@ main {
 }
 
 #timeline h3 {
-    margin-bottom: -2rem;
+    margin-bottom: -1rem;
+    margin-top: 2rem;
 }
 
 #timeline p {
@@ -402,16 +403,93 @@ footer>p {
 
     /* Timeline Section */ 
 
+    .description {
+        font-size: 110%;
+        margin-right: 2rem;
+    }
+
     /* Pre-Launch Section */
     #pre-launch {
 	display: flex;
     flex-direction: row;
+    margin-bottom: 8rem;
     }
 
     #pre-launch-image {
-        width: 40%;
+        width: 100%;
+        margin: 0 2rem;
     }
- 
+
+    /* Launch Day Section */
+    #launch-day {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 8rem;
+    }
+
+    #launch-image {
+        width: 80%;
+        margin: 0 2rem;
+    }
+
+    /* Lunar Orbit Section */
+    #lunar-orbit {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 8rem;
+    }
+
+    #lunar-orbit-image {
+        display: flex;
+        justify-content: flex-start;
+        width: 60%;
+        margin: 0 2rem;
+    }
+
+    /* Moon Landing Section */
+    #moon-landing {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 8rem;
+    }
+
+    #landing-image {
+        width: 60%;
+        margin-left: 4rem;
+    }
+
+    /* Moon Walk Section */
+    #moon-walk {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 8rem;
+    }
+
+    #moon-walk-image {
+        display: flex;
+        width: 60%;
+        margin: 0 2rem;
+    }
+
+    #moon-walk-text {
+        display: flex;
+        flex-direction: column;
+        font-size: 110%;
+        margin: 0 5rem 0 -15rem;
+    }
+
+    /* Return to Earth Section */
+    #return-to-earth {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 8rem;
+    }
+
+    #return-image {
+        width: 70%;
+        margin: 0 2rem;
+    }
+
     /* Footer */
     footer p {
         font-size: 80%;
