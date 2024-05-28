@@ -32,6 +32,10 @@ b {
     font-weight: bold;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 /* Class to create paragraph element styles */
 .description {
     font-size: 14px;
