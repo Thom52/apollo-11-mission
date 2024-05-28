@@ -44,6 +44,16 @@ b {
     border-radius: 7px;
 }
 
+/* Class to style images in Timeline Section */
+.timeline-image {
+    width: 80%;
+    border-radius: 7px;
+    box-shadow: 3px 8px 10px #1a1919;
+    margin: 1rem 0 1rem;
+    max-width: 500px;
+    max-height: 450px;
+}
+
 /* Class to create visual page cue in navbar */
 .active {
     border-bottom: 1px solid #eee3e3;
@@ -187,14 +197,6 @@ main {
     margin: 2rem 2rem;
 }
 
-#pre-launch-image {
-    width: 80%;
-    border-radius: 7px;
-    box-shadow: 3px 8px 10px #1a1919;
-    margin: 1rem 0 1rem;
-    max-width: 500px;
-    max-height: 450px;
-}
 /* Launch Day Section */
 #launch-day {
     display: flex;
@@ -202,13 +204,6 @@ main {
     align-items: center;
     text-align: center;
     margin: 2rem 2rem;
-}
-
-#launch-image {
-    width: 80%;
-    border-radius: 7px;
-    box-shadow: 3px 8px 10px #1a1919;
-    margin: 1rem 0 1rem;
 }
 
 /* Lunar Orbit Section */
@@ -220,13 +215,6 @@ main {
     margin: 2rem 2rem;
 }
 
-#lunar-orbit-image {
-    width: 80%;
-    border-radius: 7px;
-    box-shadow: 3px 8px 10px #1a1919;
-    margin: 1rem 0 1rem;
-}
-
 /* Moon Landing Sections */
 #moon-landing {
     display: flex;
@@ -234,13 +222,6 @@ main {
     align-items: center;
     text-align: center;
     margin: 2rem 2rem;
-}
-
-#landing-image {
-    width: 80%;
-    border-radius: 7px;
-    box-shadow: 3px 8px 10px #1a1919;
-    margin: 1rem 0 1rem;
 }
 
 /* Moon Walk Section */
@@ -260,13 +241,6 @@ main {
     border-radius: 7px;
 }
 
-#moon-walk-image {
-    width: 80%;
-    border-radius: 7px;
-    box-shadow: 3px 8px 10px #1a1919;
-    margin: 1rem 0 1rem;
-}
-
 /* Return to Earth Section */
 #return-to-earth {
     display: flex;
@@ -274,13 +248,6 @@ main {
     align-items: center;
     text-align: center;
     margin: 2rem 2rem;
-}
-
-#return-image {
-    width: 80%;
-    border-radius: 7px;
-    box-shadow: 3px 8px 10px #1a1919;
-    margin: 1rem 0 1rem;
 }
 
 /* Thank you Section */
