@@ -19,7 +19,8 @@ body {
     font-family: 'roboto', sans-serif;
 }
 
-h2, h3 {
+h2,
+h3 {
     font-family: 'muli', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
@@ -86,7 +87,8 @@ header a {
     margin-left: 0.5rem;
 }
 
-header h1, header img {
+header h1,
+header img {
     display: inline;
 }
 
@@ -162,7 +164,7 @@ main {
     font-weight: 100;
     background-color: rgba(0, 0, 0, 0.4);
     padding: 10px 10px;
-} 
+}
 
 #intro-video {
     width: 80%;
@@ -268,7 +270,7 @@ main {
 #thank-you p {
     margin: 0 2rem;
     background-color: rgba(0, 0, 0, 0.5);
-    
+
 }
 
 #mission-control-image {
@@ -294,7 +296,7 @@ main {
 
 }
 
-#video-gallery div{
+#video-gallery div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -314,6 +316,7 @@ main {
     height: 200px;
     max-width: 550px;
 }
+
 /* Footer */
 footer {
     background-color: black;
@@ -332,7 +335,7 @@ footer>p {
     justify-content: space-evenly;
     list-style-type: none;
     margin-bottom: 1rem;
-    
+
 }
 
 #social-networks i {
@@ -369,7 +372,7 @@ footer>p {
         height: 40px;
         margin-top: 1rem;
     }
-    
+
     #menu {
         display: flex;
         justify-content: flex-end;
@@ -423,7 +426,7 @@ footer>p {
         max-width: 600px;
     }
 
-    /* Timeline Section */ 
+    /* Timeline Section */
 
     #timeline {
         max-width: 75%;
@@ -432,10 +435,10 @@ footer>p {
 
     /* Pre-Launch Section */
     #pre-launch {
-	display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-bottom: 8rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 8rem;
     }
 
     #pre-launch-image {
@@ -536,10 +539,11 @@ footer>p {
 
 /* Media Query: Desktops and larger (1200px and up) */
 @media screen and (min-width: 1200px) {
-/* Main Content */
+    /* Main Content */
 
-/* Timeline Section */
-    h2, h3 {
+    /* Timeline Section */
+    h2,
+    h3 {
         font-size: 200%;
     }
 
@@ -551,11 +555,11 @@ footer>p {
 /* Media Query: Wide screens and larger (1400px and up) */
 @media screen and (min-width: 1400px) {
 
-/* Main Content */
+    /* Main Content */
 
-/* Timeline Section */
-.description {
-    font-size: 16px;
-}
-    
+    /* Timeline Section */
+    .description {
+        font-size: 16px;
+    }
+
 }
