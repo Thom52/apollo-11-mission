@@ -48,16 +48,6 @@ b {
     border-radius: 7px;
 }
 
-/* Class to style images in Timeline Section */
-.timeline-image {
-    width: 80%;
-    border-radius: 7px;
-    box-shadow: 3px 8px 10px #1a1919;
-    margin: 1rem 1rem;
-    max-width: 500px;
-    max-height: 450px;
-}
-
 /* Class to create visual page cue in navbar */
 .active {
     border-bottom: 1px solid #eee3e3;
@@ -182,6 +172,15 @@ main {
 
 /* Timeline Section */
 
+.timeline-image {
+    width: 80%;
+    border-radius: 7px;
+    box-shadow: 3px 8px 10px #1a1919;
+    margin: 1rem 1rem;
+    max-width: 500px;
+    max-height: 450px;
+}
+
 #timeline h2 {
     margin: 3rem 0;
     letter-spacing: 1px;
@@ -279,6 +278,15 @@ main {
     box-shadow: 3px 8px 10px #1a1919;
 }
 
+/* Gallery */
+#photos>img {
+    width: 100%;
+}
+
+#photos {
+    line-height: 0;
+}
+
 /* Footer */
 footer {
     background-color: black;
@@ -353,6 +361,12 @@ footer>p {
     /* Push main content down to accomodate the larger header */
     main {
         margin-top: 77px;
+    }
+
+    /* Gallery Section */
+    #photos {
+        column-count: 2;
+        gap: 0;
     }
 }
 
@@ -469,6 +483,11 @@ footer>p {
 
     #bottom-text {
         font-size: 110%;
+    }
+
+    /* Gallery Section */
+    #photos {
+        column-count: 3;
     }
 
     /* Footer */
