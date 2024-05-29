@@ -51,6 +51,7 @@ b {
 /* Class to create visual page cue in navbar */
 .active {
     border-bottom: 1px solid #eee3e3;
+    width: fit-content;
 }
 
 /* Header */
