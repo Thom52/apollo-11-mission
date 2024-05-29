@@ -288,6 +288,32 @@ main {
     line-height: 0;
 }
 
+/* Video Section */
+#video-gallery>h2 {
+    margin: 5rem 0;
+
+}
+
+#video-gallery div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#video-gallery p {
+    margin: 0.5rem 2rem 4rem;
+}
+
+#video-gallery video {
+    width: 80%;
+    max-width: 550px;
+}
+
+#video-gallery iframe {
+    width: 80%;
+    height: 200px;
+    max-width: 550px;
+}
 /* Footer */
 footer {
     background-color: black;
@@ -369,6 +395,15 @@ footer>p {
         column-count: 2;
         gap: 0;
     }
+
+    /* Video Section */
+    #video-gallery video {
+        max-height: 600px;
+    }
+
+    #video-gallery iframe {
+        height: 350px;
+    }
 }
 
 /* Media Query: Laptops and Larger (992px and up) */
@@ -389,9 +424,10 @@ footer>p {
     }
 
     /* Timeline Section */ 
+
     #timeline {
         max-width: 75%;
-        margin-left: 13rem;
+        margin-left: 200px;
     }
 
     /* Pre-Launch Section */
