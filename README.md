@@ -43,11 +43,11 @@
   - It is structured with text and supporting images of the mission at the relevant stage of its timeline.
   - This section is valuable to the user as it provides the core content of the page.
 
-  <details><summary>Timeline Screenshot</summary>
+    <details><summary>Timeline Screenshot</summary>
 
-  <p align="center"><img src="assets/documentation/timeline.webp" alt="Timeline" width="600"/></p>
+    <p align="center"><img src="assets/documentation/timeline.webp" alt="Timeline" width="600"/></p>
 
-  </details>
+    </details>
 
 <hr> 
 
@@ -56,11 +56,11 @@
   - The images page showcases a variety of photographs from the Apollo 11 mission.
   - This section is valuable to the user as they will be able to see genuine historical photographs from the event they are learning about and adds context to the content.  
 
-  <details><summary>Images Screenshot</summary>
+    <details><summary>Images Screenshot</summary>
 
-  <p align="center"><img src="assets/documentation/gallery.webp" alt="Gallery" width="600"/></p>
+    <p align="center"><img src="assets/documentation/gallery.webp" alt="Gallery" width="600"/></p>
 
-  </details>
+    </details>
 
 <hr> 
 
@@ -69,11 +69,11 @@
   - The video page includes embedded videos on the Apollo 11 mission. 
   - It provides more context for the information on the home page, as well as providing a more in-depth look into the mission. 
 
-  <details><summary>Video Section Screenshot</summary>
+    <details><summary>Video Section Screenshot</summary>
 
-  <p align="center"><img src="assets/documentation/video-section.webp" alt="Video Section" width="600"/></p>
+    <p align="center"><img src="assets/documentation/video-section.webp" alt="Video Section" width="600"/></p>
 
-  </details>
+    </details>
 
 <hr> 
 
@@ -82,11 +82,11 @@
   - The footer section includes links to the Apollo 11 NASA homepage, as well as to all of NASA's social networks.  
   - The footer is valuable to the user as it allows them to continue their learning of the Apollo 11 mission, as well as a chance to join communities that share the same interest as them.
 
-  <details><summary>Footer Screenshot</summary>
+      <details><summary>Footer Screenshot</summary>
 
-   <p align="center"><img src="assets/documentation/footer.webp" alt="Footer" width="600"/></p>
+       <p align="center"><img src="assets/documentation/footer.webp" alt="Footer" width="600"/></p>
 
-  </details>
+      </details>
 
 <hr> 
 
@@ -255,9 +255,9 @@ Inspections | Mobile Performance | Desktop Performance |
   width: fit-content;
 }
 ```
-<details><summary>Navbar Bug</summary>
+  <details><summary>Navbar Bug</summary>
 
-   <p align="center"><img src="assets/documentation/navbar-bug.webp" alt="Navbar Bug" width="600"/></p>
+  <p align="center"><img src="assets/documentation/navbar-bug.webp" alt="Navbar Bug" width="600"/></p>
 
   </details>
 
