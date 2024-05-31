@@ -1,4 +1,4 @@
-<p align="center"><img src="../apollo-11-mission/assets/documentation/responsive-image.webp" alt="webpage responsiveness image" width="800"/></p>
+<p align="center"><img src="assets/documentation/responsive-image.webp" alt="webpage responsiveness image" width="800"/></p>
 
 
 # Introduction
@@ -12,11 +12,6 @@
 
 # Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. 
-You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-<hr> 
-
 **Navbar**
 
   - Featured on all three pages, the fully responsive navigation bar includes links to the home page, image gallery, and video gallery. It is identical on all three pages to help with navigation.
@@ -24,7 +19,7 @@ You will need to explain what value each of the features provides for the user, 
 
   <details><summary>Navbar Screenshot</summary>
 
-  <p align="center"><img src="../apollo-11-mission//assets/documentation/navbar.webp" alt="Navbar" width="600" height="30"/></p>
+  <p align="center"><img src="assets/documentation/navbar.webp" alt="Navbar" width="600" height="30"/></p>
 
   </details>
 
@@ -36,7 +31,7 @@ You will need to explain what value each of the features provides for the user, 
 
   <details><summary>Landing Page Screenshot</summary>
 
-  <p align="center"><img src="../apollo-11-mission/assets/documentation/landing-page.webp" alt="landing page" width="600"/></p>
+  <p align="center"><img src="assets/documentation/landing-page.webp" alt="landing page" width="600"/></p>
 
   </details>
 
@@ -50,33 +45,33 @@ You will need to explain what value each of the features provides for the user, 
 
   <details><summary>Timeline Screenshot</summary>
 
-  <p align="center"><img src="../apollo-11-mission/assets/documentation/timeline.webp" alt="Timeline" width="600"/></p>
+  <p align="center"><img src="assets/documentation/timeline.webp" alt="Timeline" width="600"/></p>
 
   </details>
 
 <hr> 
 
-**The Gallery**
+**Images Page**
 
-  - Gallery showcases various artwork by the Photographer, or images of past events
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - The images page showcases a variety of photographs from the Apollo 11 mission.
+  - This section is valuable to the user as they will be able to see genuine historical photographs from the event they are learning about and adds context to the content.  
 
-  <details><summary>Gallery Screenshot</summary>
+  <details><summary>Images Screenshot</summary>
 
-  <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
+  <p align="center"><img src="assets/documentation/gallery.webp" alt="Gallery" width="600"/></p>
 
   </details>
 
 <hr> 
 
-**Contact Form**
+**Videos Page**
 
-  - An interactive contact form to enable users to get in touch with the company
-  - Includes fields for name, email and a message
+  - The video page includes embedded videos on the Apollo 11 mission. 
+  - It provides more context for the information on the home page as well as providing a more in-depth look into the mission. 
 
-  <details><summary>Contact Form Screenshot</summary>
+  <details><summary>Video Section Screenshot</summary>
 
-  <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
+  <p align="center"><img src="assets/documentation/video-section.webp" alt="Video Section" width="600"/></p>
 
   </details>
 
@@ -84,12 +79,12 @@ You will need to explain what value each of the features provides for the user, 
 
 **The Footer**
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes links to the Apollo 11 NASA homepage as well as to all of NASA's social networks.  
+  - The footer is valuable to the user as it allows them to continue their learning into Apollo 11, as well as a chance to join communities that share the same interest as them.
 
   <details><summary>Footer Screenshot</summary>
 
-   <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
+   <p align="center"><img src="assets/documentation/footer.webp" alt="Footer" width="600"/></p>
 
   </details>
 
@@ -99,20 +94,19 @@ You will need to explain what value each of the features provides for the user, 
 
 
 ## Future Features
-While the current version of the project is fully functional, we have some exciting features planned for future updates. Here are a few ideas that we didn't have time to implement in this release:
+While the current version of the project is fully functional, I have some features planned for future updates that I didn't have time to implement in this release.
 
-1. **Client Galleries**:
-   - Allow photographers to create private galleries for clients to view and download their photos securely.
-2. **Online Booking and Scheduling**:
-   - Implement a booking system that allows clients to schedule sessions with photographers, choose dates, and make payments online.
-3. **Photo Editing Tools**:
-   - Integrate basic photo editing tools like cropping, rotating, and applying filters directly on the website to enhance user-generated photos.
-4. **Print Ordering**:
-   - Enable clients to order prints, canvases, or other products featuring their favorite photos directly from the website.
-5. **Portfolio Builder**:
-   - Provide photographers with tools to easily create and customize their online portfolios, including options for different styles and layouts.
-6. **Blog or News Section**:
-   - Add a blog or news section to share photography tips, behind-the-scenes stories, and updates about your services.
+1. **Interactive Images**:
+   - As users hover over the images on the Images Page their scale will increase causing them to pop off the page and a text overlay giving more context on the photo will appear. 
+   - Clicking the photos will also take the user to the image source page on the official NASA webpage.
+2. **Astronaut Page**:
+   - Create a page to provide a historical bakground on the astronauts of the Apollo 11 mission. Provide images and media to further increase the content of the information as well as links to relevant pages on the astronauts.
+3. **NASA Page**:
+   - Create a page detailing the historical timeline of NASA from the origin of the Apollo programme up to the launch of Apollo 11. Provide details on the previous Apollo missions and how they affected the overall success of Apollo 11, with multimedia and links to support it.
+4. **Audio Link**:
+   - Include a controllable audio link on all the pages that allow the users to listen to the countdown of Apollo 11 as well as chatter between the astronaut and mission control to create ambient background noise as they explore the webpage.
+5. **Interactive Moon**:
+   - Using NASA's official - Eyes on the Solar System map, create a page that allows the user to explore the moon via an interactive control panel.
 
 <hr>
 
@@ -123,99 +117,117 @@ While the current version of the project is fully functional, we have some excit
 |  Feature |  Action | Effect |
 |---|---|---|
 |Logo|Click|Brings back to Home page|
-|Navbar Links|Click on Gallery|Opens Gallery|
-||Click on About|Opens About page|
-||Click on Contact|Opens Contact page|
-|Contact Page|Fill out the form and submit|A form dump is rendered|
-||Attempt to submit empty|Error pops up in field that's left empty|
-|Social Media Links|Test Instagram link|Instagram profile opens in a separate tab|
+|Navbar Links|Click on Images|Opens Images page|
+||Click on Videos|Opens Videos page|
+|Video Links|Click Intro Video|Plays
+||Click Intro Video Expand Button|Video expands to fullscreen
+||Click CBS Youtube Video|Plays
+||Click CBS Youtube Video Link|Youtube Video source page opens in a new tab
+||Click CBS Youtube Video Expand Button|Video expands to fullscreen
+||Click HD launch Video|Plays
+||Click HD Launch Video Expand Button|Video expands to fullscreen
+||Click LRO Landing Video|Plays
+||Click LRO Landing Video Expand Button|Video expands to fullscreen
+||Click Quote Video|Plays
+||Click Quote Video Expand Button|Video expands to fullscreen
+||Click Moonwalk Montage Video|Plays
+||Click Moonwalk Montage Video Expand Button|Video expands to fullscreen
+||Click Documentary Video|Plays
+||Click Documentary Video Expand Button|Video expands to fullscreen
+|Footer|Click NASA link|Nasa Apollo 11 homepage opens in a new tab|
+||Click Facebook link|NASA's official Facebook page opens in a tab|
+||Click X link|NASA's official X page opens in a tab|
+||Click Instagram link|NASA's official Instagram page opens in a tab|
+||Click Youtube link|NASA's official Youtube page opens in a tab|
 
 <hr>
 
 #### Lighthouse
 
 **Introduction**
-This report presents the results of Lighthouse testing conducted to assess the performance, accessibility, best practices, SEO, and PWA compliance of [Website Name].
+- This report presents the results of Lighthouse testing conducted to assess the performance, accessibility, best practices, SEO, and PWA compliance of Apollo 11 - Mission to the Moon.
 
 **Test Execution**
-Lighthouse tests were executed using the Google Chrome browser's DevTools.
+- Lighthouse tests were executed using the PageSpeed Insights webpage. [PageSpeed Insights Webpage](https://pagespeed.web.dev/)
 
 **Test Metrics**
-- Performance Score: 81
-- Accessibility Score: 93
-- Best Practices Score: 92
-- SEO Score: 92
+
+Inspections | Mobile Performance | Desktop Performance |
+|----------------------|--------------------|--------------------|
+| Performance Score: | 72 | 94 |
+| Accessibility score: | 100 | 100 |
+|Best Practices Score: | 96 | 96 |
+| SEO Score: | 100 | 100 |
 
 **Detailed Results**
-- **Performance**: The website's performance score is 81, indicating good overall performance. However, there is room for improvement to further optimize loading times.
-- **Accessibility**: The website excels in accessibility, with a score of 93, indicating strong adherence to accessibility standards. Minimal accessibility issues were detected.
-- **Best Practices**: The website follows best practices with a score of 92. There are minor areas for improvement, particularly in script loading.
-- **SEO**: SEO performance is strong, with a score of 92. The website has well-optimized meta tags and structured data markup.
+- **Performance**: The website's performance score is 72 on mobile, indicating good overall performance. However, there is room for improvement, particularly in load speed.
+
+- **Accessibility**: With a score of 100 on accessibility, The webpage excels in accessibility. This indicates strong adherence to accessibility standards with minimal accessibility issues detected.
+
+- **Best Practices**: The website follows best practices with a score of 96. A console log error being the main concern.
+
+- **SEO**: SEO performance is strong, with a score of 100. The website has well-optimized meta tags and structured data markup.
 
 **Areas for Improvement**
-- Performance can be enhanced by optimizing resource loading and reducing unnecessary requests.
-- Continue monitoring accessibility to maintain a high standard and address any emerging issues.
-- Best practices can be further improved by optimizing script loading and code splitting.
-- Maintain and regularly update meta tags and structured data markup to ensure strong SEO performance.
+- Performance can be improved by optimizing page loading by enhancing the images on the webpage, particularly by properly sizing them.
+
+- Will continue to maintain and update meta tags and structured data markup as I provide future updates to ensure strong SEO performance.
 
 **Visuals**
 
-<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1692960667/Screenshot_2023-08-25_at_11.50.29_cfmkxt.png" alt="drawing" width="800"/></p>
+**Mobile**
+<p align="center"><img src="assets/documentation/mobile-lighthouse.webp" alt="Mobile Lighthouse" width="800"/></p>
 
+**Desktop**
+<p align="center"><img src="assets/documentation/desktop-lighthouse.webp" alt="Desktop Lighthouse" width="800"/></p>
 <hr>
 
 #### Browsers
 
 **Supported Browsers and Devices**
-Our web application is officially tested and supported on the following browsers and devices:
-- Google Chrome (latest version)
+The web application is tested and supported on the following browsers and devices:
 - Mozilla Firefox (latest version)
+- Google Chrome (latest version)
 
 **Responsiveness Testing**
-We conduct manual responsiveness testing on Chrome and Firefox to ensure a seamless user experience.
+I conducted manual responsiveness testing on Firefox and Chrome to ensure a seamless user experience across a variety of different screen sizes.
 
 **Test Results**
 
-| Device/Screen Size  | Chrome Performance | Firefox Performance |
+| Device/Screen Size  | Firefox Performance | Chrome Performance |
 |----------------------|--------------------|---------------------|
-| Desktop (1920x1080) | Describe performance and issues on Chrome | Describe performance and issues on Firefox |
-| Laptop (1366x768)   | Describe performance and issues on Chrome | Describe performance and issues on Firefox |
-| Tablet (iPad)       | Describe performance and issues on Chrome | Describe performance and issues on Firefox |
-| Mobile (iPhone X)   | Describe performance and issues on Chrome | Describe performance and issues on Firefox |
-
-**Known Issues**
-- [List any known responsiveness issues or limitations]
+| Desktop (1920x1080) | No visual responsiveness issues | No visual responsiveness issues |
+| Laptop (1366x768)   | No visual responsiveness issues | No visual responsiveness issues |
+| Tablet (768x1024 - iPad)       | No visual responsiveness issues | No visual responsiveness issues |
+| Mobile (375x812 - iPhone 11 Pro)   | No visual responsiveness issues | No visual responsiveness issues |
 
 **Recommendations**
-If you encounter any responsiveness issues, we recommend:
-- Updating your browser to the latest version.
-- Trying an alternative device or screen size for optimal viewing.
+- If you encounter any responsiveness issues, we recommend:
+  - Updating your browser to the latest version.
+  - Trying an alternative device or screen size for optimal viewing.
 
 <hr>
 
 #### Screen Sizes testing
 
 **Introduction**
-This section provides an overview of how our web application [Website Name] performs across different screen sizes.
-
-**Supported Screen Sizes**
-Our web application is designed to be responsive and adapt to various screen sizes. Below are the screen sizes we have tested:
+This section provides an overview of how web Apollo 11 - Mission to the moon performs across different screen sizes. It was designed and implemented across various screen sizes whilst in develepment.
 
 | Screen Size     | Description             |
 |-----------------|-------------------------|
 | Desktop         | 1920x1080 pixels        |
 | Laptop          | 1366x768 pixels         |
 | Tablet (iPad)   | 768x1024 pixels (portrait) and 1024x768 pixels (landscape) |
-| Mobile (iPhone) | 375x812 pixels (iPhone X, portrait) and 812x375 pixels (iPhone X, landscape) |
+| Mobile (iPhone) | 375x812 pixels (iPhone 11 Pro, portrait) and 812x375 pixels (iPhone 11 Pro, landscape) |
 
 **Testing Results**
 
-| Screen Size     | Test Results           |
-|-----------------|------------------------|
-| Desktop         | Describe performance and issues on different browsers |
-| Laptop          | Describe performance and issues on different browsers |
-| Tablet (iPad)   | Describe performance and issues on different browsers |
-| Mobile (iPhone) | Describe performance and issues on different browsers |
+| Screen Size     | Firefox performace     | Chrome Performance    |
+|-----------------|------------------------|-----------------------|
+| Desktop         | No visual or performance issues | Slight delay in image load times
+| Laptop          | No visual or performance issues | Slight delay in image load times
+| Tablet (iPad)   | No visual or performance issues | Slight delay in image load times
+| Mobile (iPhone) | Slight delay in embedded video load times | Slight delay in image load times
 
 <hr> 
 
@@ -230,7 +242,7 @@ Below is a summary of resolved bugs:
 
 | Bug ID | Bug Description | Status |
 |--------|-----------------|--------|
-| #001   | Describe the bug and its impact on the user experience. | Resolved |
+| #001   | The .active class to create an underline on the page the user is currently on whilst on mobile and tablet devices wasn't contained to the desired content and stretched across the whole container. Created an ugly visual bug whenever the drop down menu was selected. | Resolved |
 | #002   | Describe the bug and its impact on the user experience. | Resolved |
 | #003   | Describe the bug and its impact on the user experience. | Resolved |
 | #004   | Describe the bug and its impact on the user experience. | Resolved |
@@ -240,9 +252,24 @@ Below is a summary of resolved bugs:
 Here are the details of the resolved bugs:
 
 **Bug #001**
-- **Description**: Describe the bug and the steps to reproduce it.
-- **Resolution**: Explain how the bug was resolved, including any code changes or fixes.
-- **Impact**: Discuss the impact of this bug on users and the importance of the fix.
+- **Description**: The underline would stretch across the whole navbar section when the dropdown menu was opened. Can recreate it by removing the width property on the .active class in the CSS stylesheet.
+- **Resolution**: I gave the .active class a width propety with a value of fit content. 
+
+```css
+.active {
+  border-bottom: 1px solid #eee3e3;
+  width: fit-content;
+}
+```
+<details><summary>Navbar Bug</summary>
+
+   <p align="center"><img src="assets/documentation/navbar-bug.webp" alt="Navbar Bug" width="600"/></p>
+
+  </details>
+
+<hr>
+
+- **Impact**: Whilst only a visual impact, it was distracting and would lessen the overall user engagement and enjoyment of the webpage.
 
 **Bug #002**
 - **Description**: Describe the bug and the steps to reproduce it.
@@ -264,17 +291,6 @@ Here are the details of the resolved bugs:
 - **Resolution**: Explain how the bug was resolved, including any code changes or fixes.
 - **Impact**: Discuss the impact of this bug on users and the importance of the fix.
 
-<hr>
-
-#### Bugs Unresolved(if applicable)
-
-| Bug ID | Bug Description | Status |
-|--------|-----------------|--------|
-| #001   | Describe the bug and its impact on the user experience. | Unesolved |
-| #002   | Describe the bug and its impact on the user experience. | Unesolved |
-| #003   | Describe the bug and its impact on the user experience. | Unesolved |
-| #004   | Describe the bug and its impact on the user experience. | Unesolved |
-| #005   | Describe the bug and its impact on the user experience. | Unesolved |
 <hr>
 
 #### Validator Testing 
