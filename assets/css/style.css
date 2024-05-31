@@ -293,7 +293,6 @@ main {
 /* Video Section */
 #video-gallery>h2 {
     margin: 5rem 0;
-
 }
 
 #video-gallery div {
@@ -309,12 +308,14 @@ main {
 #video-gallery video {
     width: 80%;
     max-width: 550px;
+    box-shadow: 3px 8px 10px #1a1919;
 }
 
 #video-gallery iframe {
     width: 80%;
     height: 200px;
     max-width: 550px;
+    box-shadow: 3px 8px 10px #1a1919;
 }
 
 /* Footer */
