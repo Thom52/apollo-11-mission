@@ -14,8 +14,8 @@
 
 **Navbar**
 
-  - Featured on all three pages, the fully responsive navigation bar includes links to the home page, image gallery, and video gallery. It is identical on all three pages to help with navigation.
-  - It will allow users to navigate between pages on all devices without needing to use the 'back' button.
+- Featured on all three pages, the fully responsive navigation bar includes links to the home page, image gallery, and video gallery. It is identical on all three pages to help with navigation.
+- It allows users to navigate between pages on all devices without needing to use the 'back' button.
 
   <details><summary>Navbar Screenshot</summary>
 
@@ -27,7 +27,7 @@
 
 **Landing Page**
 
-  - Includes an introductionary text and an embedded video to instantly introduce the user to the page's content and focus their attention.
+- Includes an introductory text and an embedded video on the Apollo 11 mission to instantly introduce the user to the page's content and focus their attention.
 
   <details><summary>Landing Page Screenshot</summary>
 
@@ -67,7 +67,7 @@
 **Videos Page**
 
   - The video page includes embedded videos on the Apollo 11 mission. 
-  - It provides more context for the information on the home page as well as providing a more in-depth look into the mission. 
+  - It provides more context for the information on the home page, as well as providing a more in-depth look into the mission. 
 
   <details><summary>Video Section Screenshot</summary>
 
@@ -79,8 +79,8 @@
 
 **The Footer**
 
-  - The footer section includes links to the Apollo 11 NASA homepage as well as to all of NASA's social networks.  
-  - The footer is valuable to the user as it allows them to continue their learning into Apollo 11, as well as a chance to join communities that share the same interest as them.
+  - The footer section includes links to the Apollo 11 NASA homepage, as well as to all of NASA's social networks.  
+  - The footer is valuable to the user as it allows them to continue their learning of the Apollo 11 mission, as well as a chance to join communities that share the same interest as them.
 
   <details><summary>Footer Screenshot</summary>
 
@@ -97,10 +97,10 @@
 While the current version of the project is fully functional, I have some features planned for future updates that I didn't have time to implement in this release.
 
 1. **Interactive Images**:
-   - As users hover over the images on the Images Page their scale will increase causing them to pop off the page and a text overlay giving more context on the photo will appear. 
+   - As users hover over the images on the Images Page, their scale will increase causing them to pop off the page and a text overlay giving more context on the photo will appear over them. 
    - Clicking the photos will also take the user to the image source page on the official NASA webpage.
 2. **Astronaut Page**:
-   - Create a page to provide a historical bakground on the astronauts of the Apollo 11 mission. Provide images and media to further increase the content of the information as well as links to relevant pages on the astronauts.
+   - Create a page to provide a historical background on the astronauts of the Apollo 11 mission. Provide images and media to further increase the content of the information as well as links to relevant pages on the astronauts.
 3. **NASA Page**:
    - Create a page detailing the historical timeline of NASA from the origin of the Apollo programme up to the launch of Apollo 11. Provide details on the previous Apollo missions and how they affected the overall success of Apollo 11, with multimedia and links to support it.
 4. **Audio Link**:
@@ -120,20 +120,20 @@ While the current version of the project is fully functional, I have some featur
 |Navbar Links|Click on Images|Opens Images page|
 ||Click on Videos|Opens Videos page|
 |Video Links|Click Intro Video|Plays
-||Click Intro Video Expand Button|Video expands to fullscreen
+||Click Intro Video Expand Button|Video expands to full screen
 ||Click CBS Youtube Video|Plays
 ||Click CBS Youtube Video Link|Youtube Video source page opens in a new tab
-||Click CBS Youtube Video Expand Button|Video expands to fullscreen
+||Click CBS Youtube Video Expand Button|Video expands to full screen
 ||Click HD launch Video|Plays
-||Click HD Launch Video Expand Button|Video expands to fullscreen
+||Click HD Launch Video Expand Button|Video expands to full screen
 ||Click LRO Landing Video|Plays
-||Click LRO Landing Video Expand Button|Video expands to fullscreen
+||Click LRO Landing Video Expand Button|Video expands to full screen
 ||Click Quote Video|Plays
-||Click Quote Video Expand Button|Video expands to fullscreen
+||Click Quote Video Expand Button|Video expands to full screen
 ||Click Moonwalk Montage Video|Plays
-||Click Moonwalk Montage Video Expand Button|Video expands to fullscreen
+||Click Moonwalk Montage Video Expand Button|Video expands to full screen
 ||Click Documentary Video|Plays
-||Click Documentary Video Expand Button|Video expands to fullscreen
+||Click Documentary Video Expand Button|Video expands to full screen
 |Footer|Click NASA link|Nasa Apollo 11 homepage opens in a new tab|
 ||Click Facebook link|NASA's official Facebook page opens in a tab|
 ||Click X link|NASA's official X page opens in a tab|
@@ -144,8 +144,7 @@ While the current version of the project is fully functional, I have some featur
 
 #### Lighthouse
 
-**Introduction**
-- This report presents the results of Lighthouse testing conducted to assess the performance, accessibility, best practices, SEO, and PWA compliance of Apollo 11 - Mission to the Moon.
+- This report presents the results of Lighthouse testing conducted to assess the performance, accessibility, best practices and SEO compliance of Apollo 11 - Mission to the Moon.
 
 **Test Execution**
 - Lighthouse tests were executed using the PageSpeed Insights webpage. [PageSpeed Insights Webpage](https://pagespeed.web.dev/)
@@ -164,7 +163,7 @@ Inspections | Mobile Performance | Desktop Performance |
 
 - **Accessibility**: With a score of 100 on accessibility, The webpage excels in accessibility. This indicates strong adherence to accessibility standards with minimal accessibility issues detected.
 
-- **Best Practices**: The website follows best practices with a score of 96. A console log error being the main concern.
+- **Best Practices**: The website follows best practices with a score of 96. A console log error with regard to the introduction video being the main concern.
 
 - **SEO**: SEO performance is strong, with a score of 100. The website has well-optimized meta tags and structured data markup.
 
@@ -185,12 +184,12 @@ Inspections | Mobile Performance | Desktop Performance |
 #### Browsers
 
 **Supported Browsers and Devices**
-The web application is tested and supported on the following browsers and devices:
-- Mozilla Firefox (latest version)
-- Google Chrome (latest version)
+- The web application is tested and supported on the following browsers and devices:
+  - Mozilla Firefox (latest version)
+  - Google Chrome (latest version)
 
 **Responsiveness Testing**
-I conducted manual responsiveness testing on Firefox and Chrome to ensure a seamless user experience across a variety of different screen sizes.
+- I conducted manual responsiveness testing on Firefox and Chrome to ensure a seamless user experience across a variety of different screen sizes.
 
 **Test Results**
 
@@ -211,7 +210,7 @@ I conducted manual responsiveness testing on Firefox and Chrome to ensure a seam
 #### Screen Sizes testing
 
 **Introduction**
-This section provides an overview of how web Apollo 11 - Mission to the moon performs across different screen sizes. It was designed and implemented across various screen sizes whilst in develepment.
+- This section provides an overview of how Apollo 11 - Mission to the moon performs across different screen sizes. It was designed and implemented across various screen sizes whilst in develepment.
 
 | Screen Size     | Description             |
 |-----------------|-------------------------|
@@ -235,24 +234,19 @@ This section provides an overview of how web Apollo 11 - Mission to the moon per
 
 
 **Introduction**
-This section provides a summary of bugs that have been identified, reported, and subsequently resolved in [Website Name].
+- This section provides a summary of bugs that have been identified, reported, and subsequently resolved in Apollo 11 - Mission to the Moon.
 
-**Bug Tracking**
-Below is a summary of resolved bugs:
+- Below is a summary of resolved bugs:
 
 | Bug ID | Bug Description | Status |
 |--------|-----------------|--------|
-| #001   | The .active class to create an underline on the page the user is currently on whilst on mobile and tablet devices wasn't contained to the desired content and stretched across the whole container. Created an ugly visual bug whenever the drop down menu was selected. | Resolved |
-| #002   | Describe the bug and its impact on the user experience. | Resolved |
-| #003   | Describe the bug and its impact on the user experience. | Resolved |
-| #004   | Describe the bug and its impact on the user experience. | Resolved |
-| #005   | Describe the bug and its impact on the user experience. | Resolved |
+| #001   | The .active class, which was created to display an underline in the nav bar on the page the user is currently on whilst on mobile devices, wasn't contained to the desired content and stretched across the whole container. Created an ugly visual bug whenever the drop-down menu was selected. | Resolved |
 
 **Bug Details**
-Here are the details of the resolved bugs:
+- Here are the details of the resolved bugs:
 
 **Bug #001**
-- **Description**: The underline would stretch across the whole navbar section when the dropdown menu was opened. Can recreate it by removing the width property on the .active class in the CSS stylesheet.
+- **Description**: The underline would stretch across the whole nav bar section when the drop-down menu was opened. Can recreate it by removing the width property on the .active class in the CSS stylesheet.
 - **Resolution**: I gave the .active class a width propety with a value of fit content. 
 
 ```css
@@ -271,26 +265,6 @@ Here are the details of the resolved bugs:
 
 - **Impact**: Whilst only a visual impact, it was distracting and would lessen the overall user engagement and enjoyment of the webpage.
 
-**Bug #002**
-- **Description**: Describe the bug and the steps to reproduce it.
-- **Resolution**: Explain how the bug was resolved, including any code changes or fixes.
-- **Impact**: Discuss the impact of this bug on users and the importance of the fix.
-
-**Bug #003**
-- **Description**: Describe the bug and the steps to reproduce it.
-- **Resolution**: Explain how the bug was resolved, including any code changes or fixes.
-- **Impact**: Discuss the impact of this bug on users and the importance of the fix.
-
-**Bug #004**
-- **Description**: Describe the bug and the steps to reproduce it.
-- **Resolution**: Explain how the bug was resolved, including any code changes or fixes.
-- **Impact**: Discuss the impact of this bug on users and the importance of the fix.
-
-**Bug #005**
-- **Description**: Describe the bug and the steps to reproduce it.
-- **Resolution**: Explain how the bug was resolved, including any code changes or fixes.
-- **Impact**: Discuss the impact of this bug on users and the importance of the fix.
-
 <hr>
 
 #### Validator Testing 
@@ -303,35 +277,35 @@ Here are the details of the resolved bugs:
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Main Branch
   - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://thom52.github.io/apollo-11-mission-to-the-moon/
 
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. 
-It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
 #### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- The development of this project was aided by the following YouTube tutorials:
+- The development of this project was aided by the Code Institute Diploma in Full Stack Software Development Course.
 
-| Tutorial Title      | Creator/Channel Name | Description                                          |
+| Tutorial Title      | Creator| Description                                          |
 |---------------------|-----------------------|------------------------------------------------------|
-| [Tutorial Title 1](link-to-tutorial) | [Creator/Channel Name 1] | How this tutorial helped you.             |
-| [Tutorial Title 2](link-to-tutorial) | [Creator/Channel Name 2] | How this tutorial contributed to your project. |
+| [Love Running - Essentials Project (Toggling a drop-down menu)](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+4/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/) | [Code Institute] | Helped me create the drop-down menu in my header for mobile devices.|
+| [Love Running - Essentials Project (Let's add some images)](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+4/courseware/e805068059af42af87681032aa64053f/391954f5ae8547e180a539c0d51e063c/) | [Code Institute] | Helped me create the Images page and make it look good on all screen sizes. |
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
+- Font design and contrast were developed using [Font Joy](https://fontjoy.com/)
+
+- The font styles were taken from [Google Fonts](https://fonts.google.com/)
+
 #### Media
 
-The following images used in this project are sourced from Unsplash and are used under their respective licenses:
+- The Images, Videos, and NASA / Apollo 11 Insignias were taken from [NASA](https://www.nasa.gov/multimedia/)
+
+- The CBS Network Launch video was taken from [CBS's official youtube page](https://www.nasa.gov/multimedia/)
+
+- The background image used in this project was sourced from Unsplash and was taken by photographer [Wil Stewart](https://unsplash.com/@wilstewart3) and is used under [Unsplash License](https://unsplash.com/license)
